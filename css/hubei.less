@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    //background:  rgba(247, 245, 141, 0.678);
+    //background:-moz-linear-gradient( top,rgb(223, 238, 18),rgb(233, 233, 163),rgb(203, 214, 43));
+    background: -moz-linear-gradient( top,rgb(250, 249, 215),rgb(240, 240, 129));
+    //background: -webkit-linear-gradient(top,rgb(248, 253, 175),rgb(233, 233, 163),rgb(244, 250, 155));
+    background: -o-linear-gradient(top,rgb(250, 249, 215),rgb(240, 240, 129));
+    background: -webkit-linear-gradient(top,rgb(250, 249, 215),rgb(240, 240, 129));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgb(250, 249, 215), endColorstr=rgb(240, 240, 129),GradientType=0 );
+    line-height: 1.15;
+
+  }
+  header{
+    position: relative;
+    height: 1.25rem;
+    //rgb(240, 240, 129)
+    background: -o-linear-gradient(top,rgba(250, 249, 215, 1),rgb(250, 248, 190));
+    background: -moz-linear-gradient(top,rgba(250, 249, 215, 1),rgb(250, 248, 190));
+    background:-webkit-linear-gradient(top,rgba(250, 249, 215, 1),rgb(250, 248, 190));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgba(250, 249, 215, 1), endColorstr=rgb(250, 248, 190),GradientType=0 );
+     //border: 1px solid;
+    // border-image: -webkit-linear-gradient(rgb(203, 214, 43),rgb(250, 250, 141)) 50 50;
+    // border-image: -moz-linear-gradient(rgb(203, 214, 43),rgb(250, 250, 141)) 50 50;
+    //border-image: linear-gradient(rgb(16, 172, 211),rgb(253, 236, 162)) 90 10;
+  }
+  h1{
+    font-size: 0.475rem;
+    color: rgb(4, 64, 75);
+    text-align: center;
+    line-height: 1rem;
+  }
+  .subTitle{
+    position: absolute;
+    right: 0.375rem;
+    top:0.45rem;
+    font-size: 0.25rem;
+    color: rgb(5, 89, 104);
+    line-height: 0.9375rem;
+  }
+
+  //页面主体盒子
+  .mainbox{
+    display: flex;
+    min-width: 12.8rem;
+    max-width: 24rem;
+    height: 12.2rem;
+    
+    margin:0 auto;
+    padding: 0.125rem 0.125rem 0;
+  .column {
+    flex: 4;
+  }
+  .column:nth-child(2) {
+      overflow: hidden;
+      flex: 3;
+      margin:0 .1rem .18rem 
+  }
+  .column:nth-child(3){
+    overflow: hidden;
+      flex:3;
+  }
+  .panel{
+    position: relative;
+    height: 5.825rem;
+   // border: 1px solid rgba(220, 224, 224, 0.5);
+   //background: hsla(59, 51%, 81%, 0.329);
+    //background:  rgba(255, 255, 255, 0.14)url(../images/line\(1\).png);
+    padding: 0.1875rem 0.1rem 0.1rem 0.1875rem;
+    margin-bottom: 0.1875rem;
+
+    h2 {
+      text-align: center;
+      height: 1rem;
+      line-height: 0.6rem;
+      color:black;
+      font-size: 0.35rem;
+      font-weight: 450;
+    }
+    h3 {
+      text-align: center;
+      margin-top: 0.2rem;
+      height: 0.6rem;
+      line-height: 0.6rem;
+      color:black;
+      font-size: 0.35rem;
+      font-weight: 450;
+    }
+    h4{
+      //text-align: center;
+      margin-left: 75%;
+      margin-top: -4.5%;
+      color:rgb(151, 142, 142);
+      font-size: 0.20rem;
+      font-weight: normal;
+
+    }
+    .chart{
+      height: 5rem;
+      width: 100%,100%;
+      //background-color: pink;
+    }
+  }
+  .bar { 
+   // background: hsla(0, 0%, 100%, 0.14);
+    position: relative;
+    padding: 0.1875rem 0.1rem 0.1rem .1875em;
+    h2 {
+      text-align: center;
+      //margin-left: 1rem;
+      height: 1rem;
+      line-height: 0.6rem;
+      color:black;
+      font-size: 0.35rem;
+      font-weight: 450;
+     
+    }
+    h3{
+      color:rgb(151, 142, 142);
+      font-size: 0.19rem;
+      font-weight: normal;
+
+    }
+    a{
+      color:rgb(151, 142, 142);
+      opacity:0;
+      //text-align: center;
+      //margin-top: -50%;
+      font-size: 0.20rem;
+      text-decoration:none;
+      background: transparent url(../images/mainreturn.png)  center left no-repeat;
+      margin-left: 75%;
+      padding-left: .3rem;
+    }
+    .seriesbar{
+      height: 9.7rem;
+      width: 100%,100%;
+    }
+  }
+  .map {
+    //background:hsla(0, 0%, 100%, 0.14);
+    position: relative;
+    padding: 0.1875rem 0.1rem 0.1rem .1875em;
+    h3{
+      //text-align: center;
+      margin-left: 70%;
+      margin-top: -4%;
+      color:rgb(151, 142, 142);
+      font-size: 0.20rem;
+      font-weight: normal;
+
+    }
+    .title1{
+     // border: 1px solid rgba(25, 186, 139, 0.17);
+      height:1rem;
+      line-height: 0.6rem;
+      text-align: center;
+      font-size: 0.35rem;
+      color: black;
+      //.a{
+
+      //}
+      
+    }
+    .hubeimap {
+     // background-color: pink;
+     // position: absolute;
+      height: 10.625rem;
+     // top: 0;
+      //left: 0;
+      // z-index: 5;
+      width: 100%,100%;
+    }
+      
+  }
+}

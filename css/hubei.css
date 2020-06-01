@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: -moz-linear-gradient(top, #faf9d7, #f0f081);
+  background: -o-linear-gradient(top, #faf9d7, #f0f081);
+  background: -webkit-linear-gradient(top, #faf9d7, #f0f081);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#faf9d7, endColorstr=#f0f081, GradientType=0);
+  line-height: 1.15;
+}
+header {
+  position: relative;
+  height: 1.25rem;
+  background: -o-linear-gradient(top, #faf9d7, #faf8be);
+  background: -moz-linear-gradient(top, #faf9d7, #faf8be);
+  background: -webkit-linear-gradient(top, #faf9d7, #faf8be);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#faf9d7, endColorstr=#faf8be, GradientType=0);
+}
+h1 {
+  font-size: 0.475rem;
+  color: #04404b;
+  text-align: center;
+  line-height: 1rem;
+}
+.subTitle {
+  position: absolute;
+  right: 0.375rem;
+  top: 0.45rem;
+  font-size: 0.25rem;
+  color: #055968;
+  line-height: 0.9375rem;
+}
+.mainbox {
+  display: flex;
+  min-width: 12.8rem;
+  max-width: 24rem;
+  height: 12.2rem;
+  margin: 0 auto;
+  padding: 0.125rem 0.125rem 0;
+}
+.mainbox .column {
+  flex: 4;
+}
+.mainbox .column:nth-child(2) {
+  overflow: hidden;
+  flex: 3;
+  margin: 0 0.1rem 0.18rem;
+}
+.mainbox .column:nth-child(3) {
+  overflow: hidden;
+  flex: 3;
+}
+.mainbox .panel {
+  position: relative;
+  height: 5.825rem;
+  padding: 0.1875rem 0.1rem 0.1rem 0.1875rem;
+  margin-bottom: 0.1875rem;
+}
+.mainbox .panel h2 {
+  text-align: center;
+  height: 1rem;
+  line-height: 0.6rem;
+  color: black;
+  font-size: 0.35rem;
+  font-weight: 450;
+}
+.mainbox .panel h3 {
+  text-align: center;
+  margin-top: 0.2rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: black;
+  font-size: 0.35rem;
+  font-weight: 450;
+}
+.mainbox .panel h4 {
+  margin-left: 75%;
+  margin-top: -4.5%;
+  color: #978e8e;
+  font-size: 0.2rem;
+  font-weight: normal;
+}
+.mainbox .panel .chart {
+  height: 5rem;
+  width: 100%,100%;
+}
+.mainbox .bar {
+  position: relative;
+  padding: 0.1875rem 0.1rem 0.1rem 0.1875em;
+}
+.mainbox .bar h2 {
+  text-align: center;
+  height: 1rem;
+  line-height: 0.6rem;
+  color: black;
+  font-size: 0.35rem;
+  font-weight: 450;
+}
+.mainbox .bar h3 {
+  color: #978e8e;
+  font-size: 0.19rem;
+  font-weight: normal;
+}
+.mainbox .bar a {
+  color: #978e8e;
+  opacity: 0;
+  font-size: 0.2rem;
+  text-decoration: none;
+  background: transparent url(../images/mainreturn.png) center left no-repeat;
+  margin-left: 75%;
+  padding-left: 0.3rem;
+}
+.mainbox .bar .seriesbar {
+  height: 9.7rem;
+  width: 100%,100%;
+}
+.mainbox .map {
+  position: relative;
+  padding: 0.1875rem 0.1rem 0.1rem 0.1875em;
+}
+.mainbox .map h3 {
+  margin-left: 70%;
+  margin-top: -4%;
+  color: #978e8e;
+  font-size: 0.2rem;
+  font-weight: normal;
+}
+.mainbox .map .title1 {
+  height: 1rem;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.35rem;
+  color: black;
+}
+.mainbox .map .hubeimap {
+  height: 10.625rem;
+  width: 100%,100%;
+}

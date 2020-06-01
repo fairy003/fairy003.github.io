@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>今天你“鄂”了吗？</title>
+    <link rel="stylesheet" href="css/hubei.css" />   
+  </head>
+<body>
+  
+<!--标题-->
+  <header>
+    <h1>今天你“鄂”了吗？</h1>
+    <div class="subTitle">——基于电商平台的湖北商品数据可视化</div>
+  </header>
+<!--页面主体-->
+<section class="mainbox">
+  <div class="column"> 
+    <div class="map">
+       <div class="title1">湖北省各市热卖商品数</div>
+       <h3>单位：个</h3>
+       <div class="hubeimap"></div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="bar">
+      <h2 id=goods>  湖北商品人气排行榜</h2>
+      <!--style="display:none""-->
+      <div class="link">
+        <a id=a1 href="javascript:;">返回湖北省</a>
+      </div>
+      
+     <!-- !<a href="javascript:;""> 返回湖北省</a>-->
+      <div class="seriesbar"></div>
+      <h3>注：排行分数为该类别商品数的加权求和结果<br />
+      月销量不足该类别月销量中位数的，加权值为0.5，如超过，加权值为1</h3>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="panel pie">
+      <h2 id=pie1>热干面价格分布饼图</h2>
+      <h4>单位：元</h3>
+      <div class="chart"></div>
+    </div>
+    <div class="panel cloud">
+      <h3 id=cloud1>热干面评论词云图</h3>
+      <div class="chart"></div>
+    </div>
+  </div>
+</section>
+
+<script src="js/flexible.js"></script>
+<script src="js/echarts.js"></script>
+<script src="js/hubei.js"></script>
+<script src="js/echarts.wordcloud.js"></script>
+<script src="js/walden.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/myMap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
